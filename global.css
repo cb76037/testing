@@ -1,0 +1,165 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: "Lato","HelveticaNeue-Regular","HelveticaNeue Regular","Helvetica Neue","Helvetica",Arial,"Lucida Grande",sans-serif;
+}
+
+#top-menu {
+	background-image: linear-gradient(to right, #318fc2 , #75b3d4);
+	height: 40px;
+	padding: 0px 170px 0px 170px;
+}
+
+#logo {
+	float: left;
+	width: 13%;
+}
+
+#top-links {
+	float: right;
+	margin: 0px;
+}
+
+#top-links li {
+	display: inline-block;
+	width: 100px;
+}
+
+.menu-link {
+	display: block;
+    padding: 13px 18px 13px 23px;
+    color: #fff;
+    text-decoration: none;
+    font-size: .750em;
+}
+
+.menu-link.active {
+	background-color: #006999;
+	font-weight: bold;
+}
+
+#main-content {
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 50px;
+}
+
+.column {
+	float: left;
+	display: inline-block;
+}
+
+#column-1 {
+	width: 70%;
+	padding: 0px 0px 20px 20px;
+}
+
+#title-text {
+	font-size: 1.875em;
+	color: #650360;
+}
+
+#column-1 p:not(#title-text) {
+	font-size: 1.07em;;
+	color: #666666;
+}
+
+#reasons li {
+	line-height: 2em;
+	font-size: 1.07em;
+	color: #666666;
+}
+
+#mobile-img {
+	float: right;
+    width: 12%;
+	margin-right: 30px;
+	margin-top: -76px;
+}
+
+#mobile-info {
+	background-color: #bbd8c4;
+}
+
+#mobile-text {
+	padding: 10px;
+	width: 76%;
+}
+
+#mobile-info h4 {
+	color: #650360;
+	margin: 0px;
+}
+
+#rates {
+	margin-top: 40px;
+}
+
+#rates p {
+	font-size: 1.400em !important;
+	color: #666666;
+}
+
+#column-2 {
+	width: 28%;
+}
+
+#login-btn {
+	background-color: #640360;
+	color: white;
+	font-size: .875em;
+	width: 224px;
+    height: 35px;
+	margin-top: 35px;
+    margin-left: 66px;
+	border: none;
+}
+
+#tabbed-container {
+	margin-top: 30px;
+	margin-left: 68px;
+	width: 224px;
+}
+
+.tab {
+	display: inline-block;
+	background-color: #bbd8c4;
+	color: #61a7d5;
+	width: 80px;
+	padding: 8px;
+	text-align: center;
+}
+
+.tab.chosen {
+	background-color: #f5f5f5;
+	color: #000;
+	padding-top: 20px;
+	border-style: outset outset none outset;
+    border-width: .5px;
+	border-radius: 2px 2px 0px 0px;
+}
+
+.tab-content {
+	display: none;
+	background-color: #f5f5f5;
+	color: #000;
+	padding: 8px;
+}
+
+.tab-content.chosen {
+	display: block;
+	border-top-style: outset;
+    border-width: .5px;
+	margin-top: -1px;
+}
+
+.news-article h4 , .arch-article h4{
+	color: #61a7d5;
+}
+
+.news-article p {
+	font-size: .750em;
+    line-height: 1.5em;
+}
